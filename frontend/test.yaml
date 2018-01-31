@@ -21,7 +21,7 @@
            - name: backend
              cpu: 1
              essential: true
-             image: "mohanraz/backend:latest"
+             image: "reshmafids/backend:latest"
              memory: 300
        register: task_output
      - name: Display all variables/facts known for a host
