@@ -76,7 +76,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: "mohanraz/frontend"
+        image: "reshmafids/fidbackend"
         ports:
           - name: http
             containerPort: 80
